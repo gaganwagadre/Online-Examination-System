@@ -1,0 +1,73 @@
+//                 Explanation regarding these Peoject
+
+
+// ---The code starts by declaring a JFrame object named "login" and an ActionListener object.
+// The class extends the JFrame class, which is used to create a window on the screen. 
+// The next line declares two buttons in the frame: b1 and b2. These are declared as objects of
+//  type Button,which is defined in package javax.swing.Button in file java/awt/Button.java.
+// This means that these buttons will be able to react to events such as clicking or pressing 
+// them with your mouse or keyboard, respectively. Next we declare an Analyze button that will 
+// allow us to analyze our code after it has been run for debugging purposes (see below). 
+// We also declare a timer called t1 that will execute every second until it reaches its maximum 
+// time value of 1000 milliseconds (ms) and then stop executing any more tasks; this timer is set 
+// up using TimerTask's constructor method with no arguments passed into it because there are no 
+// other parameters needed for this particular task (see below). Finally, we have some variables
+// declared at the top of the program: one variable called "userName", another variable 
+// called "password", and finally a boolean variable called "isLoggedIn".
+
+
+
+// ----The code is a class declaration that declares the login class. The constructor for this
+// class is as follows: login() { super(); b1 = new JButton("Login"); } This code creates an
+// instance of the login class and assigns it to the variable b1. The super() function calls
+// the constructor for any parent classes, in this case, there are none. The next line
+// creates a new instance of the JButton class and assigns it to b1.
+
+
+
+
+// ----The code starts by creating a login page. The userLabel and passLabel are created,
+// and textField1 is created with a size of 15. A button called b1 is also created to submit 
+// the form. Next, the code creates an empty JPanel called Npanel that has three rows and one
+// column. The next part of the code creates two text fields: one for username (textField1) 
+// and another for password (textField2). These two text fields have sizes of 8 each because
+// they will be used as input boxes in which users can type their information into before 
+// submitting it to the program. Next, a button called b1 is added to create a submit button 
+// on top of the login page so that users can click it when they're done filling out all their
+// information..
+
+
+// ----The code has been written to create a login page. The userLabel is created with the 
+// text "Username :" and the textField1 is created with the size of 15. The passLabel is 
+// created with the text "Password :" and the textField2 is created with the size of 8.
+//  Finally, a button named b1 is created which will submit all inputted data to be processed 
+//  by your program.
+
+
+
+
+// The code starts by creating a new OnlineTestBegin class. The constructor for the class
+//  is passed in a string that will be used to name the window. Next, an array of JRadioButton
+//   objects is created and added to the ButtonGroup object bg. Then, five buttons are 
+//   created and added to the group as well. The next part of this code creates an instance 
+//   of Timer which starts at 0 seconds with no delay between each timer event (0 milliseconds).
+//    A timer event occurs every time you click on one of the radio buttons or press any key 
+//    on your keyboard. This means that when you click on one button it sends a message back 
+//    to Java telling it what button was clicked so it can update its internal state accordingly
+//     (the count variable). When there are no more events left in this particular timer, then 
+//     Java will send another message back saying "time's up" and stop sending messages until
+//      another event happens again (this is where now comes into play). Next, two variables 
+//      are declared: x and y represent coordinates on screen; m represents 10 integers that 
+//      represent different colors; Current represents how many times we've run through our loop
+//       so far; count keeps track of how many times we've run through our loop so far..
+
+
+
+
+// ----The code is used to create a new OnlineTestBegin class that extends JFrame and 
+// implements ActionListener. The constructor for this class takes in a String argument. 
+// The code starts by creating an instance of the OnlineTestBegin class with the string
+//  "OnlineTestBegin" as its name. Next, it creates three labels: l, l1, and jb. It also 
+//  creates 10 integers called m[] which are used to store the x-y coordinates of each mouse
+//   click on the screen. Finally, it creates a timer object named timer and sets its initial 
+//   value to be 0 seconds..
